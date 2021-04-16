@@ -1,0 +1,26 @@
+.find-joke {
+  width: 70vw;
+  margin: 25px auto;
+
+  &__form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__label {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 18px;
+  }
+
+  &__input {
+    width: 70%;
+    padding: 0 15px;
+    border-radius: 15px;
+  }
+
+  &__button {
+    width: 10%;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+}

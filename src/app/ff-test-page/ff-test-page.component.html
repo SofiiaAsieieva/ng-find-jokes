@@ -1,0 +1,17 @@
+<div class="find-joke">
+  <h1>Jokes: {{ jokes.length }}</h1>
+
+  <form (ngSubmit)="onSubmit($event)" class="find-joke__form">
+    <label for="find-joke__input" class="find-joke__label"> Search jokes: </label>
+    <input
+      id="find-joke__input"
+      class="find-joke__input"
+      type="text"
+      placeholder="Try chuck"
+      (input)="inputHandler($event)"
+    />
+    <button class="find-joke__button" (click)="findJokes()">Find!</button>
+  </form>
+
+  <app-list [jokes]="jokes"></app-list>
+</div>

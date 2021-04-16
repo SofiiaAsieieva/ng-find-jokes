@@ -1,0 +1,14 @@
+<div
+  [ngStyle]="{
+    display: jokes.length > 0 ? 'block' : 'none'
+  }"
+>
+  <h2>Chuck Norris found:</h2>
+
+  <ol class="find-joke__list">
+    <li *ngFor="let joke of jokes; let i = index">
+      <img [src]="joke.icon_url" alt="icon_url" />
+      <p>{{ joke.value }}</p>
+    </li>
+  </ol>
+</div>

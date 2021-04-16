@@ -3,17 +3,21 @@ import { Routes, RouterModule } from '@angular/router';
 import { marker } from '@biesbjerg/ngx-translate-extract-marker';
 
 import { Shell } from '@app/shell/shell.service';
-import { AboutComponent } from './about.component';
+import { FfTestPageComponent } from './ff-test-page.component';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: 'about', component: AboutComponent, data: { title: marker('About') } }
-  ])
+    {
+      path: 'ff-test-page',
+      component: FfTestPageComponent,
+      data: { title: marker('ff-test-page') },
+    },
+  ]),
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
-  providers: []
+  providers: [],
 })
-export class AboutRoutingModule { }
+export class FfTestPageRoutingModule {}
