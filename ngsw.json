@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618589526919,
+  "timestamp": 1618592993817,
   "index": "C:/Program Files/Git/ng-find-jokes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "C:/Program Files/Git/ng-find-jokes/favicon.ico",
         "C:/Program Files/Git/ng-find-jokes/index.html",
-        "C:/Program Files/Git/ng-find-jokes/main.a040ee8ed4359bd8f5df.js",
+        "C:/Program Files/Git/ng-find-jokes/main.786261ae59e3fa33ee73.js",
         "C:/Program Files/Git/ng-find-jokes/manifest.webmanifest",
         "C:/Program Files/Git/ng-find-jokes/polyfills.51d53e1f76e3d16fa63c.js",
         "C:/Program Files/Git/ng-find-jokes/runtime.0e49e2b53282f40c8925.js",
@@ -72,8 +72,8 @@
     "C:/Program Files/Git/ng-find-jokes/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "C:/Program Files/Git/ng-find-jokes/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "C:/Program Files/Git/ng-find-jokes/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "C:/Program Files/Git/ng-find-jokes/index.html": "8b3a7a7b00df94e6c26a2e86eb9c27c9e4430dd5",
-    "C:/Program Files/Git/ng-find-jokes/main.a040ee8ed4359bd8f5df.js": "fd22a434159a09fe344a20e2270fb85d92d5739e",
+    "C:/Program Files/Git/ng-find-jokes/index.html": "97d111e948d6a3c20e59ac137d528a34ab40b361",
+    "C:/Program Files/Git/ng-find-jokes/main.786261ae59e3fa33ee73.js": "f58d22a3d5313d346a1f9a77701deedf165176f2",
     "C:/Program Files/Git/ng-find-jokes/manifest.webmanifest": "667f60576bd8c0bb127f5c69876868509b564e9f",
     "C:/Program Files/Git/ng-find-jokes/polyfills.51d53e1f76e3d16fa63c.js": "2116a5df20eec4ad4ed41ec4b01aa93e3af1eda4",
     "C:/Program Files/Git/ng-find-jokes/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
