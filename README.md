@@ -1,5 +1,7 @@
 # ngX Starter Kit
 
+[DEMO LINK](https://sofiiaasieieva.github.io/ng-find-jokes/)
+
 Web project starter kit including modern tools and workflow based on
 [angular-cli](https://github.com/angular/angular-cli), best practices from the community, a scalable base template and
 a good learning base.
