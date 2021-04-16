@@ -22,9 +22,7 @@ export class FfTestPageComponent {
   }
 
   findJokes() {
-    // @ts-ignore
-    this.http.get<Joke[]>(`${environment.apiUrlJokes}=${this.input}`).subscribe((jokes) => {
-      // @ts-ignore
+    this.http.get<Jokes>(`${environment.apiUrlJokes}=${this.input}`).subscribe((jokes) => {
       this.jokes = jokes.result;
       console.log(this.jokes);
     });
