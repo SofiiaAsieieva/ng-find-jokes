@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { TranslateModule } from '@ngx-translate/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -15,6 +15,8 @@ import { ShellModule } from './shell/shell.module';
 import { AboutModule } from './about/about.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FfTestPageComponent } from './ff-test-page/ff-test-page.component';
+import { ListComponent } from './ff-test-page/components/list/list.component';
 
 @NgModule({
   imports: [
@@ -30,11 +32,10 @@ import { AppRoutingModule } from './app-routing.module';
     HomeModule,
     AboutModule,
     AuthModule,
-    AppRoutingModule // must be imported as the last module as it contains the fallback route
+    AppRoutingModule, // must be imported as the last module as it contains the fallback route
   ],
-  declarations: [AppComponent],
-  providers: [
-  ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, FfTestPageComponent, ListComponent],
+  providers: [],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

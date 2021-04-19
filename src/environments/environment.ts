@@ -15,7 +15,8 @@ export const environment = {
   version: env.npm_package_version + '-dev',
   serverUrl: '/api',
   defaultLanguage: 'en-US',
-  supportedLanguages: ['en-US', 'fr-FR']
+  supportedLanguages: ['en-US', 'fr-FR'],
+  apiUrlJokes: 'https://api.chucknorris.io/jokes/search?query',
 };
 
 /*

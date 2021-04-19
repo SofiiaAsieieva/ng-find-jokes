@@ -9,6 +9,7 @@ import { environment } from '@env/environment';
 })
 export class FfTestPageComponent {
   jokes: Joke[] = [];
+  BASE_URL = 'https://api.chucknorris.io/jokes/search?query';
   input = '';
 
   constructor(private http: HttpClient) {}
@@ -22,7 +23,7 @@ export class FfTestPageComponent {
   }
 
   findJokes() {
-    this.http.get<Jokes>(`${environment.apiUrlJokes}=${this.input}`).subscribe((jokes) => {
+    this.http.get<Jokes>(`${this.BASE_URL}=${this.input}`).subscribe((jokes) => {
       this.jokes = jokes.result;
       console.log(this.jokes);
     });

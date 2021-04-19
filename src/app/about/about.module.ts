@@ -2,17 +2,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { AboutRoutingModule } from './about-routing.module';
+import { FfTestPageRoutingModule } from '../ff-test-page/ff-test-page-routing.module';
 import { AboutComponent } from './about.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    TranslateModule,
-    AboutRoutingModule
-  ],
-  declarations: [
-    AboutComponent
-  ]
+  imports: [CommonModule, TranslateModule, FfTestPageRoutingModule],
+  declarations: [AboutComponent],
 })
-export class AboutModule { }
+export class AboutModule {}
