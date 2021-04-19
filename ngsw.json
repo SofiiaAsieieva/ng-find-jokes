@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618837843354,
+  "timestamp": 1618851410887,
   "index": "https://sofiiaasieieva.github.io/ng-find-jokes/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://sofiiaasieieva.github.io/ng-find-jokes/favicon.ico",
         "https://sofiiaasieieva.github.io/ng-find-jokes/index.html",
-        "https://sofiiaasieieva.github.io/ng-find-jokes/main.e1d92e42a4ec691c98c7.js",
+        "https://sofiiaasieieva.github.io/ng-find-jokes/main.7a3062c2b1ad224832f5.js",
         "https://sofiiaasieieva.github.io/ng-find-jokes/manifest.webmanifest",
         "https://sofiiaasieieva.github.io/ng-find-jokes/polyfills.51d53e1f76e3d16fa63c.js",
         "https://sofiiaasieieva.github.io/ng-find-jokes/runtime.0e49e2b53282f40c8925.js",
@@ -72,8 +72,8 @@
     "https://sofiiaasieieva.github.io/ng-find-jokes/fa-solid-900.c6ec080084769a6d8a34.woff": "52751432ded489dfdf27fb1cf64c570c4c27a1d7",
     "https://sofiiaasieieva.github.io/ng-find-jokes/fa-solid-900.efbd5d20e407bbf85f2b.eot": "b18bdd10beee0a20231aa4c9ea11e84a9307a4fd",
     "https://sofiiaasieieva.github.io/ng-find-jokes/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
-    "https://sofiiaasieieva.github.io/ng-find-jokes/index.html": "12b24e009e038019344334dc19773c6396b1b688",
-    "https://sofiiaasieieva.github.io/ng-find-jokes/main.e1d92e42a4ec691c98c7.js": "23f889ad1b974b1e9536c43858a0a469ba5df878",
+    "https://sofiiaasieieva.github.io/ng-find-jokes/index.html": "4c232a27bb1d0970a3bf14340c0dec7d7051ab8e",
+    "https://sofiiaasieieva.github.io/ng-find-jokes/main.7a3062c2b1ad224832f5.js": "c8240b1147c287a5435e92fb27fb3bb0e714be5d",
     "https://sofiiaasieieva.github.io/ng-find-jokes/manifest.webmanifest": "667f60576bd8c0bb127f5c69876868509b564e9f",
     "https://sofiiaasieieva.github.io/ng-find-jokes/polyfills.51d53e1f76e3d16fa63c.js": "2116a5df20eec4ad4ed41ec4b01aa93e3af1eda4",
     "https://sofiiaasieieva.github.io/ng-find-jokes/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
