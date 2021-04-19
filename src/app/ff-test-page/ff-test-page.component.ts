@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from '@env/environment';
 
 @Component({
   selector: 'app-ff-test-page',
@@ -22,10 +21,9 @@ export class FfTestPageComponent {
     this.input = event.target.value;
   }
 
-  findJokes() {
+  loadPage() {
     this.http.get<Jokes>(`${this.BASE_URL}=${this.input}`).subscribe((jokes) => {
       this.jokes = jokes.result;
-      console.log(this.jokes);
     });
   }
 }

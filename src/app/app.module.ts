@@ -17,6 +17,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FfTestPageComponent } from './ff-test-page/ff-test-page.component';
 import { ListComponent } from './ff-test-page/components/list/list.component';
+import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
@@ -32,7 +33,9 @@ import { ListComponent } from './ff-test-page/components/list/list.component';
     HomeModule,
     AboutModule,
     AuthModule,
-    AppRoutingModule, // must be imported as the last module as it contains the fallback route
+    AppRoutingModule,
+    NgbPaginationModule,
+    NgbAlertModule, // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent, FfTestPageComponent, ListComponent],
   providers: [],

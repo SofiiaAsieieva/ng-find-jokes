@@ -10,7 +10,7 @@
       placeholder="Try chuck"
       (input)="inputHandler($event)"
     />
-    <button class="find-joke__button" (click)="findJokes()">Find!</button>
+    <button class="find-joke__button" (click)="loadPage()">Find!</button>
   </form>
 
   <app-list [jokes]="jokes"></app-list>

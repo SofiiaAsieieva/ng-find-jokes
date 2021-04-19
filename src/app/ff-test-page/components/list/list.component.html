@@ -6,9 +6,21 @@
   <h2>Chuck Norris found:</h2>
 
   <ol class="find-joke__list">
-    <li *ngFor="let joke of jokes; let i = index">
-      <img [src]="joke.icon_url" alt="icon_url" />
-      <p>{{ joke.value }}</p>
+    <li
+      class="find-joke__item"
+      *ngFor="let joke of jokes | slice: (page - 1) * pageSize:(page - 1) * pageSize + pageSize"
+    >
+      {{ joke.value }}
     </li>
   </ol>
+
+  <ngb-pagination
+    class="d-flex justify-content-center"
+    [collectionSize]="jokes.length / 2"
+    [(page)]="page"
+    [maxSize]="pageSize"
+    [rotate]="true"
+  ></ngb-pagination>
+
+  {{ page }}
 </div>

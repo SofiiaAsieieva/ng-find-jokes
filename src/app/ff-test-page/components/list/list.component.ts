@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -6,5 +6,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./list.component.scss'],
 })
 export class ListComponent {
-  @Input() jokes: Joke[] = [];
+  @Input() jokes: Joke[];
+  @Output() loadPage: Output;
+
+  page = 1;
+  pageSize = 20;
 }
