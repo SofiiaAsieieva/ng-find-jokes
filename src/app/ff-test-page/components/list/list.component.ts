@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -7,7 +7,6 @@ import { Component, Input, Output } from '@angular/core';
 })
 export class ListComponent {
   @Input() jokes: Joke[];
-  @Output() loadPage: Output;
 
   page = 1;
   pageSize = 20;

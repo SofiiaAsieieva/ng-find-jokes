@@ -13,10 +13,6 @@ export class FfTestPageComponent {
 
   constructor(private http: HttpClient) {}
 
-  onSubmit(event: any) {
-    event.preventDefault();
-  }
-
   inputHandler(event: any) {
     this.input = event.target.value;
   }
@@ -24,6 +20,7 @@ export class FfTestPageComponent {
   loadPage() {
     this.http.get<Jokes>(`${this.BASE_URL}=${this.input}`).subscribe((jokes) => {
       this.jokes = jokes.result;
+      console.log(this.jokes);
     });
   }
 }

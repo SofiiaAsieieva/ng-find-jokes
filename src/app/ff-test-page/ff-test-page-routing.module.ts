@@ -4,6 +4,9 @@ import { marker } from '@biesbjerg/ngx-translate-extract-marker';
 
 import { Shell } from '@app/shell/shell.service';
 import { FfTestPageComponent } from './ff-test-page.component';
+import { ListComponent } from '@app/ff-test-page/components/list/list.component';
+import { NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
+import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   Shell.childRoutes([
@@ -16,8 +19,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+  imports: [RouterModule.forChild(routes), NgbPaginationModule, CommonModule],
+  exports: [RouterModule, ListComponent],
   providers: [],
+  declarations: [ListComponent],
 })
 export class FfTestPageRoutingModule {}

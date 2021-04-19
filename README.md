@@ -32,6 +32,13 @@ npm install
 npm start
 ```
 
+4. Login to the system
+
+```
+login: 1
+password: 1
+```
+
 ## Development server
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change

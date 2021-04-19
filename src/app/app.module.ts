@@ -10,13 +10,12 @@ import { environment } from '@env/environment';
 import { CoreModule } from '@core';
 import { SharedModule } from '@shared';
 import { AuthModule } from '@app/auth';
-import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
+import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
+import { FfTestPageModule } from './ff-test-page/ff-test-page.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FfTestPageComponent } from './ff-test-page/ff-test-page.component';
-import { ListComponent } from './ff-test-page/components/list/list.component';
 import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -32,12 +31,13 @@ import { NgbPaginationModule, NgbAlertModule } from '@ng-bootstrap/ng-bootstrap'
     ShellModule,
     HomeModule,
     AboutModule,
+    FfTestPageModule,
     AuthModule,
     AppRoutingModule,
     NgbPaginationModule,
     NgbAlertModule, // must be imported as the last module as it contains the fallback route
   ],
-  declarations: [AppComponent, FfTestPageComponent, ListComponent],
+  declarations: [AppComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
